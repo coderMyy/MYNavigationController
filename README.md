@@ -17,11 +17,22 @@
 
 ```
 ![image](https://github.com/coderMyy/MYNavigationController/blob/master/examplePic/first.gif)
-<hr>
+<br>
+<br>
+<br>
+<br>
 ![image](https://github.com/coderMyy/MYNavigationController/blob/master/examplePic/222.gif)
-<hr>
+<br>
+<br>
+<br>
+<br>
 ![image](https://github.com/coderMyy/MYNavigationController/blob/master/examplePic/333.gif)
-<hr>
+<br>
+<br>
+<br>
+<br>
 ![image](https://github.com/coderMyy/MYNavigationController/blob/master/examplePic/444.gif)
-
+<br>
+<br>
+<br>
 ## ---- 其他具体的内容 , 请见demo 
