@@ -17,20 +17,12 @@
 
 ```
 ![image](https://github.com/coderMyy/MYNavigationController/blob/master/examplePic/first.gif)
-<br>
-<br>
-<br>
-<br>
 ![image](https://github.com/coderMyy/MYNavigationController/blob/master/examplePic/222.gif)
 <br>
 <br>
 <br>
 <br>
 ![image](https://github.com/coderMyy/MYNavigationController/blob/master/examplePic/333.gif)
-<br>
-<br>
-<br>
-<br>
 ![image](https://github.com/coderMyy/MYNavigationController/blob/master/examplePic/444.gif)
 <br>
 <br>
