@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AdressViewController">
+            <connections>
+                <outlet property="adress" destination="bsC-WO-DpO" id="dXh-dn-bIw"/>
+                <outlet property="starImageview" destination="wgN-ub-7WD" id="QfJ-BS-ajH"/>
+                <outlet property="tipLabel" destination="ecD-cu-U2O" id="qHO-Cs-dkU"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="bsC-WO-DpO">
+                    <rect key="frame" x="30" y="360" width="315" height="100"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="HWs-WR-6aI"/>
+                    </constraints>
+                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="轻量级图文混排 , 实现图片文字混排 , 可显示常规链接比如网址,@,话题等 , 可以自定义链接字,设置关键字高亮等功能 . 适用于微博,微信,IM聊天对话等场景 . 实现这些功能仅用了几百行代码，耦合性也较低" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ecD-cu-U2O">
+                    <rect key="frame" x="50" y="150" width="275" height="200"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="200" id="1sZ-R2-7cm"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1_star_" translatesAutoresizingMaskIntoConstraints="NO" id="wgN-ub-7WD">
+                    <rect key="frame" x="154.5" y="525" width="66" height="66"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="66" id="40n-he-uUw"/>
+                        <constraint firstAttribute="height" constant="66" id="W01-qf-5jl"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xfl-oB-alg">
+                    <rect key="frame" x="0.0" y="470" width="375" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="gTM-vd-u9x"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="19"/>
+                    <state key="normal" title="拷贝地址"/>
+                    <connections>
+                        <action selector="copyClick:" destination="-1" eventType="touchUpInside" id="KXI-h7-Udy"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="xfl-oB-alg" firstAttribute="top" secondItem="bsC-WO-DpO" secondAttribute="bottom" constant="10" id="FQd-rg-cxk"/>
+                <constraint firstItem="wgN-ub-7WD" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="I1o-ZC-oUj"/>
+                <constraint firstItem="xfl-oB-alg" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="IKd-YU-rTB"/>
+                <constraint firstAttribute="trailing" secondItem="xfl-oB-alg" secondAttribute="trailing" id="Imw-0j-9UU"/>
+                <constraint firstItem="ecD-cu-U2O" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="50" id="LaC-Ag-QTQ"/>
+                <constraint firstItem="bsC-WO-DpO" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="30" id="Xol-eL-dR9"/>
+                <constraint firstItem="ecD-cu-U2O" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="150" id="dRi-Vs-JHb"/>
+                <constraint firstAttribute="trailing" secondItem="bsC-WO-DpO" secondAttribute="trailing" constant="30" id="eLf-Zx-Rja"/>
+                <constraint firstAttribute="trailing" secondItem="ecD-cu-U2O" secondAttribute="trailing" constant="50" id="tcu-Tf-ja3"/>
+                <constraint firstItem="bsC-WO-DpO" firstAttribute="top" secondItem="ecD-cu-U2O" secondAttribute="bottom" constant="10" id="xtg-7g-YPB"/>
+                <constraint firstItem="wgN-ub-7WD" firstAttribute="top" secondItem="xfl-oB-alg" secondAttribute="bottom" constant="5" id="z4U-vj-LVX"/>
+            </constraints>
+            <point key="canvasLocation" x="33.5" y="53.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="1_star_" width="16" height="16"/>
+    </resources>
+</document>
