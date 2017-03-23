@@ -17,13 +17,10 @@
 
 ```
 ![image](https://github.com/coderMyy/MYNavigationController/blob/master/examplePic/first.gif)
-<br>
 <hr>
 ![image](https://github.com/coderMyy/MYNavigationController/blob/master/examplePic/222.gif)
-<br>
 <hr>
 ![image](https://github.com/coderMyy/MYNavigationController/blob/master/examplePic/333.gif)
-<br>
 <hr>
 ![image](https://github.com/coderMyy/MYNavigationController/blob/master/examplePic/444.gif)
 
