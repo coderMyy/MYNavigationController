@@ -25,6 +25,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.automaticallyAdjustsScrollViewInsets = NO;
+    
     switch (_tag) {
         case 1:
             self.adress.text   = @"https://github.com/coderMyy/MYCoreTextLabel";
