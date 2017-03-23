@@ -3,7 +3,7 @@
 
 ## 使用范例 : 
 ```
-<b>创建弹窗菜单 , 并创建MYNavigationController导航控制器对其包装 , 设置需要展示的frame以及弹出动画类型.
+   创建弹窗菜单 , 并创建MYNavigationController导航控制器对其包装 , 设置需要展示的frame以及弹出动画类型.
     MenuController *menu = [[MenuController alloc]init];
     MYNavigationController *nav = [[MYNavigationController alloc]initWithShowFrame:CGRectMake(0, (my_Screen_Height - 388)*0.5, my_Screen_Width, 388) ShowStyle:MYPresentedViewShowStyleFromBottomSpringStyle root:menu callback:^(id callback) {
 
