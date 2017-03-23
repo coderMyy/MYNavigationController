@@ -15,13 +15,13 @@
 //值得注意的是 : callback为MYNavigationController导航控制器的一个公开属性 , 在内部菜单中 , 可以自行实现 , 并回调出任意内容
 
 ```
-<p>
+</p>
 ![image](https://github.com/coderMyy/MYNavigationController/blob/master/examplePic/111.gif)
-<p>
+</p>
 ![image](https://github.com/coderMyy/MYNavigationController/blob/master/examplePic/222.gif)
-<p>
+</p>
 ![image](https://github.com/coderMyy/MYNavigationController/blob/master/examplePic/333.gif)
-<p>
+</p>
 ![image](https://github.com/coderMyy/MYNavigationController/blob/master/examplePic/444.gif)
 
 ## ---- 其他具体的内容 , 请见demo 
