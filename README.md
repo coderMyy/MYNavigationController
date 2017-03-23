@@ -17,7 +17,6 @@
 
 ```
 ![image](https://github.com/coderMyy/MYNavigationController/blob/master/examplePic/first.gif)
-</p>
 ![image](https://github.com/coderMyy/MYNavigationController/blob/master/examplePic/222.gif)
 </p>
 ![image](https://github.com/coderMyy/MYNavigationController/blob/master/examplePic/333.gif)
