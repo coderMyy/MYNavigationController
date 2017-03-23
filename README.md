@@ -16,7 +16,7 @@
 
 ```
 </p>
-![image](https://github.com/coderMyy/MYNavigationController/blob/master/examplePic/111.gif)
+![image](http://github.com/coderMyy/MYNavigationController/raw/master/examplePic/111.gif)
 </p>
 ![image](https://github.com/coderMyy/MYNavigationController/blob/master/examplePic/222.gif)
 </p>
