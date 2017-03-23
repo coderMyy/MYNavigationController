@@ -16,12 +16,12 @@
 
 ```
 <p>
-![image](https://github.com/coderMyy/MYNavigationController/blob/master/examplePic/111.png)
+![image](https://github.com/coderMyy/MYNavigationController/blob/master/examplePic/111.gif)
 <p>
-![image](https://github.com/coderMyy/MYCoreTextLabel/blob/master/examplePic/222.png)
+![image](https://github.com/coderMyy/MYNavigationController/blob/master/examplePic/222.gif)
 <p>
-![image](https://github.com/coderMyy/MYCoreTextLabel/blob/master/examplePic/333.png)
+![image](https://github.com/coderMyy/MYNavigationController/blob/master/examplePic/333.gif)
 <p>
-![image](https://github.com/coderMyy/MYCoreTextLabel/blob/master/examplePic/444.png)
+![image](https://github.com/coderMyy/MYNavigationController/blob/master/examplePic/444.gif)
 
 ## ---- 其他具体的内容 , 请见demo 
