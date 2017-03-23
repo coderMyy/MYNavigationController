@@ -16,7 +16,7 @@
 
 ```
 <p>
-![image](https://github.com/coderMyy/MYNavigationController框架/blob/master/examplePic/111.gif)
+![image](https://github.com/coderMyy/MYNavigationController/blob/master/examplePic/111.gif)
 <p>
 ![image](https://github.com/coderMyy/MYNavigationController/blob/master/examplePic/222.gif)
 <p>
